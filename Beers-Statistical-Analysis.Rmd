@@ -1,3 +1,15 @@
+```{r setup, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(dplyr)
+library(Rmisc)
+library(Hmisc)
+library(emmeans)
+library(gridExtra)
+#install.packages('car')
+library(car)
+
+options(width = 100)
+```
 # **Section A.1**
 
 ## Data Preparation
